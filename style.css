@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+    font-family: 'Poppins'; 
+}
+
+a{
+    text-decoration: none;
+}
+
+/* aq começa a parte do quem somos */
+
+.tema_p_txt{
+    font-size: 20px;
+    font-family:'poppins';
+    font-weight: 400px;
+    color:black;
+}
+
+
+.compre{
+    font-size:40px;
+    font-weight: 700;
+    color:black;
+    font-family: 'Poppins'; 
+}
+
+.txt_tema {
+    margin-top: 70px;
+    margin-left: 150px;
+    padding-bottom: 40px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #505050;
+    margin-bottom: 60px;   
+}
+
+.tema {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.imagem-ao-lado {
+    width: 1000px;
+}
+
+
+.tema {
+    background-color: #ffffff;
+    overflow: hidden;
+    padding-bottom: 30px;
+    height: 710px;  
+}
+
+
+/* aq acaba a parte do quem somos */
+
+/* cabeçalho começa aq */
+.cabeçalho{
+    background-color:white;
+    width: 100%;
+    color:black;
+    height: 80px;
+    font-size:30px;
+    text-decoration:none;
+    font-family: 'poppins'; 
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.logo{
+    width:100px;
+    margin-right: 40px;
+    padding-left: 10px;
+}
+
+.q_somos{
+    margin-left: 600px;
+}
+
+.cabeçalho a{
+    margin-right: 30px;
+    font-size: 21px;            
+}
+
+.cabeçalho a:hover{
+    padding-bottom: 8px;
+    border-bottom: 2px solid transparent; 
+    transition: padding-bottom 0.5s, border-color 0.5s;
+}
+
+.titulo{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size:19px;   
+}
+
+.float-right {
+    float: right;
+    margin-left: 20px;
+}
+
+.section-07{
+    color:white;
+    height:500px;
+    
+}
+
+.section-07-maps{
+margin-left: auto;   
+}
+
+.txt_mapa{
+    text-align: center;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.txt_mapa h1{
+    font-size: 45px;
+}
+
+.mapa{
+    height: 100%;
+    font-family: 'Poppins'; 
+}
+
+.sub_text_mapa{
+    text-align: start;
+    padding-top: 20px;
+}
+
+.mapa_a{
+    padding-top: 20px;
+    width: 200px;
+}
+
+.button_map{
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    text-decoration: none;
+    background-color: #455681;
+    color:white;
+    text-decoration:none;
+    height: 40px;
+    font-family: 'Poppins'; 
+} 
+
+.button_map:hover{
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    text-decoration: none;
+    background-color: white;
+    color:#455681;
+    text-decoration:none;
+    height: 40px;
+}
+
+.img-responsive,
+.thumbnail>img,
+.thumbnail a>img,
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+display: block;
+max-width: 100%;
+height: 333px;
+}
+
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12 {
+float: left;
+width: 50%;
+}
+
+#compre{
+    font-size:40px;
+    font-weight: 700;
+    color:black;
+    font-family: 'Poppins'; 
+}
+/*Dúvidas? entre em contato.*/
+
+.hero-text {
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+font-family: 'Poppins'; 
+}
+
+.hero-text button {
+border: none;
+outline: 0;
+display: inline-block;
+padding: 10px 25px;
+color: black;
+background-color: #ddd;
+text-align: center;
+cursor: pointer;
+}
+
+    /*Benefícios*/
+.img-responsive,
+.thumbnail>img,
+.thumbnail a>img,
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+display: block;
+max-width: 100%;
+height: 333px;
+}
+
+.btnConheca2 {
+background-color: #3b1ced;
+color: #ffffff;
+padding: 1em 2.6em;
+margin: 2em 0em;
+float: left;
+font-family: 'Merriweather Sans', sans-serif;
+}
+
+/* Produtos */
+.produtos {
+position: relative;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #000000;
+overflow: hidden;
+}
+
+.background-image {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-image: url('https://images.pexels.com/photos/7078619/pexels-photo-7078619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+background-size: cover;
+background-position: center;
+filter: brightness(0.5);
+z-index: -1;
+}
+
+.content {
+z-index: 1;
+text-align: center;
+position: relative; /* Adicione esta linha */
+}
+
+.content {
+z-index: 1;
+text-align: center;
+}
+
+.carrossel {
+display: flex;
+overflow-x: auto;
+scroll-snap-type: x mandatory;
+-webkit-overflow-scrolling: touch;
+}
+
+.slide1 {
+flex: 0 0 auto;
+width: 300px;
+margin-right: 20px;
+scroll-snap-align: start;
+border-radius: 8px;
+overflow: hidden;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+background-color: #ffffff;
+}
+
+.slide1 .image {
+width: 300px;
+height: 300px;
+overflow: hidden;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+}
+
+.slide1 img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.slide1 h3 {
+font-size: 1.4em;
+margin: 15px 0 10px;
+}
+
+.slide1 p {
+font-size: 1em;
+margin-bottom: 20px;
+padding: 0 15px;
+}
+
+.slide1:hover {
+transform: translateY(-5px);
+transition: transform 0.3s ease;
+}
+
+.prev,
+.next {
+background-color: #005eaa;
+color: rgb(0, 0, 0);
+padding: 10px 15px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+transition: background-color 0.3s;
+}
+
+.prev:hover,
+.next:hover {
+background-color: #cef0cd;
+}
+
+
+
+
+    
+    /* Estilos para a seção de Objetivos */
+
+.objetivos {
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+flex-wrap: wrap;
+background-image: url('img/fundo_valor.jpg');
+padding-top: 65px;
+padding-bottom: 65px;
+font-family: 'Poppins'; 
+}
+
+.objetivo {
+width: 21%;
+background-color: rgb(235, 229, 229);
+padding: 20px;
+margin: 10px;
+border-radius: 9px;
+transition: transform 0.1s ease-in-out;
+color:black;
+font-family: 'Poppins';
+}
+
+.objetivo:hover {
+transform: scale(1.05);
+}
+
+.objetivo:hover {
+animation: changeColor 3s infinite alternate;
+}
+
+.objetivo h2 {
+margin-top: 0;
+font-family: 'Poppins';
+}
+
+.objetivo p {
+margin-bottom: 0;
+font-family: 'Poppins';
+font-size: 17px;
+}
+
+@keyframes changeColor {
+from {
+    background-color: #ffffff;
+}
+to {
+    background-color: #01640b;
+    color:white;
+}
+}
+
+/* Estilos para a seção Dúvidas */
+.hero-image {
+background-image:url("https://images.pexels.com/photos/3887927/pexels-photo-3887927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+height: 50%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+font-family: 'Poppins';
+}
+
+.hero-text button:hover {
+background-color: #555;
+color: white;
+}
+
+/* Rodapé */
+footer {
+color: #000000;
+padding: 40px 0;
+background-image: url('https://images.pexels.com/photos/14966550/pexels-photo-14966550/free-photo-of-coco-comida-alimento-refeicao.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+background-size: cover;
+}
+
+.footer-container {
+display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    }
+
+    .footer-logo {
+    flex: 1 1 200px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+
+    .footer-logo img {
+    max-width: 100%;
+    height: auto;
+    }
+
+    .footer-info,
+    .footer-links,
+    .footer-contact {
+    flex: 1 1 200px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+
+    .footer-info h2,
+    .footer-links h2,
+    .footer-contact h2 {
+    color: #000000;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    }
+
+    .footer-links ul {
+    list-style: none;
+    padding: 0;
+    }
+
+    .footer-links ul li {
+    margin-bottom: 8px;
+    }
+
+    .footer-links ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    }
+
+    .footer-links ul li a:hover {
+    color: #fff;
+    }
+
+    .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    font-size: 0.9rem;
+    }
